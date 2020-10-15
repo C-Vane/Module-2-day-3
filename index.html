@@ -44,41 +44,42 @@
     </head>
 
     <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <img src="Image/travel-4548127_640.png" alt="logo" id="logo" style="width: 100px;" />
+                <a class="navbar-brand" href="#">SkyLine</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#dealweek">Deal of the Week</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#jumbo">Jumbotron</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#summer">Welcome Summer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#dealoftheday">Deal of the day</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#carouselExampleControls">Testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactus">contact us</a>
+                        </li>
+                    </ul>
+                </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <img src="Image/travel-4548127_640.png" alt="logo" id="logo" style="width: 100px;">
-            <a class="navbar-brand" href="#">SkyLine</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#contactus">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#dealweek">Deal of the Week</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#jumbo">Jumbotron</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#summer">Welcome Summer</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#dealoftheday">Deal of the day</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#carouselExampleControls">Testimonial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contactus">contact us</a>
-                    </li>
-                </ul>
-            </div>
-
-        </nav>
+            </nav>
+        </header>
         <button class="btn btn-primary togbtns" type="button" data-toggle="collapse" data-target="#jumbo"
             aria-expanded="false" aria-controls="collapseExample">
             >
@@ -224,14 +225,22 @@
                         <h2 class="card-title">Romantic Trip to REO DE JANEIRO</h2>
                         <p class="card-text">It doesn’t need to be Valentine’s Day to enjoy a romantic getaway for
                             couples!</p>
-                        <ul>
-                            <li> Cheap flight</li>
-                            <li> 10% discount for hotels</li>
-                            <li> 20€ coupon for travels from and to the airport</li>
-                            <li> Great destination for winter time </li>
-                        </ul>
+                        <p class="card-text"><span><strong>Destination:</strong> </span>Paris
+                        </p><br>
+                        <p class="card-text"><span><strong>Date:</strong> </span> 28-oct-1986
+                        </p><br>
+                        <p class="card-text"><span><strong>Price:</strong> </span> $4,000
+                        <p class="card-text"><span><strong>Description:</strong>
+                                <ul>
+                                    <li> Cheap flight</li>
+                                    <li> 10% discount for hotels</li>
+                                    <li> 20€ coupon for travels from and to the airport</li>
+                                    <li> Great destination for winter time </li>
+                                </ul>
+                        </p>
                         <a href="#" class="btn btn-primary">Book flight</a>
-                        <p class="card-text"><small class="text-muted">Book now deal is for limited time</small></p>
+                        <p class="card-text"><small class="text-muted">Book now deal is for limited time</small>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -390,7 +399,8 @@
 
     </body>
 
-    <footer id="footer">
+    <footer class="navbar navbar-dark bg-dark" id="footer">SkyLine Travel Agency <br> #12 skinman road, Jumeirah AEX.
+        </address>
         <hr>
         <div class="footer">
             <button class="btn btn-outline-primary" id="contactus" type="button" data-toggle="modal"

@@ -1,20 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Permanent+Marker&family=Sansita+Swashed:wght@500&display=swap");
+/*font-family: 'Dosis', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Sansita Swashed', cursive;*/
 * {
   padding: 0;
   margin: 0;
   align-items: center;
+  font-family: "Dosis", sans-serif;
+}
+body {
+  margin-top: 85px;
+}
+header {
+  top: -2px;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
 }
 
+#logo {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
 #jumbo {
   background-image: url(/Image/boats-2758962_1920.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: norepeat;
   height: 500px;
   background-position-y: -100px;
   max-width: 1300px;
   margin: auto;
 }
-
-#dealoftheday {
+* #dealoftheday {
   margin: auto;
   max-width: 1140px;
 }
@@ -128,8 +145,11 @@ h2 {
 #testimonilas {
   margin: auto;
 }
-
-#contactus {
-  position: relative;
-  left: 300px;
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-top: #007bff;
+  color: #ffff;
 }
