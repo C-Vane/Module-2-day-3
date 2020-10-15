@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+#jumbo {
+  background-image: url(/Image/boats-2758962_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-position-y: -100px;
+  max-width: 1300px;
+  margin: auto;
+}
+
+#dealoftheday {
+  margin: auto;
+  max-width: 1140px;
+}
+
+@media only screen and (max-width: 600px) {
+  #dealoftheday {
+    display: none;
+  }
+}
+
+.allimg {
+  width: 150px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 32px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  /* Black see-through */
+  color: #f1f1f1;
+  height: auto;
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: symbols(">");
+  padding-left: 30px;
+}
+
+.destination {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  padding-bottom: 2rem;
+}
+
+.container-img {
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
+.container-img:hover .overlay {
+  opacity: 1;
+}
+
+.card {
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+.card-body {
+  padding: 0px;
+}
+
+.deal {
+  padding-left: 30px;
+}
+
+.d-block {
+  margin-left: 100px;
+}
+
+.carousel {
+  margin: 15px;
+}
+
+.btnlast {
+  border: none;
+  background-color: transparent;
+  color: darkgrey;
+  padding: 0;
+}
+
+#lastminute {
+  margin: auto;
+}
+
+.lastimg {
+  height: 120px;
+}
+
+.togbtns {
+  margin: 10px;
+  float: right;
+  position: relative;
+  left: 10px;
+  top: -10px;
+  background-color: transparent;
+  font-size: 20px;
+  color: #007bff;
+  transform: rotate(90deg);
+}
+
+h2 {
+  margin: 10px;
+}
+
+.hot {
+  position: absolute;
+  left: -10px;
+}
+
+#testimonilas {
+  margin: auto;
+}
+
+#contactus {
+  position: relative;
+  left: 300px;
+}
