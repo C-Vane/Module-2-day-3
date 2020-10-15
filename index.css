@@ -7,6 +7,7 @@ font-family: 'Sansita Swashed', cursive;*/
   margin: 0;
   align-items: center;
   font-family: "Dosis", sans-serif;
+  font-size: 18px;
 }
 body {
   margin-top: 85px;
@@ -38,9 +39,7 @@ h1 {
   max-width: 1300px;
   margin: auto;
 }
-* #dealoftheday {
-  margin: auto;
-  max-width: 1140px;
+.container {
 }
 
 @media only screen and (max-width: 600px) {
@@ -55,7 +54,7 @@ h1 {
 
 .overlay {
   position: absolute;
-  bottom: 32px;
+  bottom: 35px;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
   /* Black see-through */
@@ -99,10 +98,6 @@ ul {
 
 .card-body {
   padding: 0px;
-}
-
-.deal {
-  padding-left: 30px;
 }
 
 .d-block {
@@ -151,7 +146,19 @@ h2 {
 }
 
 #testimonilas {
+  float: left;
+}
+.carousel {
+  height: 200px;
+}
+.d-block {
+  height: auto;
   margin: auto;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  -webkit-filter: invert(1);
+  filter: invert(1);
 }
 footer {
   display: flex;
